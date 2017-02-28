@@ -12,9 +12,9 @@ nukeuuid
 .. image:: https://readthedocs.org/projects/nukeuuid/badge/?version=latest
     :target: https://readthedocs.org/projects/nukeuuid/?badge=latest
 
-``nukeuuid`` is a unique identifier library for Nuke. UUIDs are stored on
-nodes and therefore persist Nuke sessions. UUIDs can be used to track nodes
-throughout the compositing process.
+A unique identifier library for Nuke. UUIDs are stored on nodes and therefore
+persist Nuke sessions. UUIDs can be used to track nodes throughout the
+compositing process.
 
 `Full Documentation`_
 
