@@ -45,10 +45,6 @@ To get started with ``nukeuuid``, type in the Nuke Script Editor:
 Define a dictionary of UUIDs to be set, with the keys defining the UUID name
 and the values defining the UUID values.
 
-.. note::
-
-    The empty string as a key will evaluate to the default UUID name ``uuid``.
-
 .. code-block:: python
 
     kw = {'': 'fca7201e-b53d-4918-9ab0-bb4ec5590f3c',
