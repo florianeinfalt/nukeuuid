@@ -1,0 +1,11 @@
+include .gitignore
+include LICENSE
+include README.rst
+include run_tests.py
+
+graft tests
+graft docs
+
+global-exclude *.py[cod]
+
+prune docs/build
