@@ -4,6 +4,18 @@ import sys
 import uuid
 import platform
 
+
+def import_nuke():
+    try:
+        import nuke
+        return nuke
+    except ImportError as e:
+        try:
+            os.environ['NON_PRODUCTION_CONTEXT']
+        except KeyError:
+            raise e
+
+
 try:
     os.environ['NON_PRODUCTION_CONTEXT']
 except:
@@ -16,7 +28,7 @@ except:
     match = re.search(application, sys.executable)
     if not match:
         raise RuntimeError('Import nukeuuid from within Nuke')
-    import nuke
+    nuke = import_nuke()
 
 __version__ = '0.1.1'
 __all__ = []
