@@ -46,6 +46,7 @@ Define a dictionary of UUIDs to be set, with the keys defining the UUID name
 and the values defining the UUID values.
 
 .. note::
+
     The empty string as a key will evaluate to the default UUID name ``uuid``.
 
 .. code-block:: python
