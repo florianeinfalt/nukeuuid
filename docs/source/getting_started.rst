@@ -19,7 +19,7 @@ and the values defining the UUID values.
     kw = {'': 'fca7201e-b53d-4918-9ab0-bb4ec5590f3c',
           'utility': '5f2d525d-3e00-4bc5-88c4-794ad87f5699'}
 
-To create and set the UUID attributes on a node, type:
+To create and set the UUID attributes on a node (or a list of nodes), type:
 
 .. code-block:: python
 
