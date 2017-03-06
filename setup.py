@@ -9,7 +9,7 @@ test_requirements = ['pytest', 'pytest-cov',
 
 setup(
     name = 'nukeuuid',
-    version = '0.1.1',
+    version = '0.1.2',
     description='A unique identifier library for Nuke',
     long_description=readme,
     url='https://github.com/florianeinfalt/nukeuuid',
