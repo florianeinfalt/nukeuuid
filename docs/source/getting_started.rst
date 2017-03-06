@@ -23,7 +23,7 @@ To create and set the UUID attributes on a node (or a list of nodes), type:
 
 .. code-block:: python
 
-    nukeuuid.set(node, **kw)
+    nukeuuid.set_uuid(node, **kw)
 
 To retrieve all nodes matching a specific UUID pattern, type:
 

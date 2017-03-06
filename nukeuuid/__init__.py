@@ -89,7 +89,7 @@ def _make_attr(node, attr):
         node.addKnob(nuke.Text_Knob(attr, attr))
 
 
-def set(nodes, **kwargs):
+def set_uuid(nodes, **kwargs):
     """
     Given a list of ``nodes`` and a set of keyword arguments ``kwargs``,
     set UUID(s) on ``nodes``.
@@ -103,7 +103,7 @@ def set(nodes, **kwargs):
     >>> import nukeuuid
     >>> kw = {'': 'fca7201e-b53d-4918-9ab0-bb4ec5590f3c',
               'utility': '5f2d525d-3e00-4bc5-88c4-794ad87f5699'}
-    >>> nukeuuid.set(nuke.selectedNodes(), **kw)
+    >>> nukeuuid.set_uuid(nuke.selectedNodes(), **kw)
     """
     if not isinstance(nodes, list):
         nodes = [nodes]
