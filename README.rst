@@ -2,13 +2,13 @@ nukeuuid
 ========
 
 .. image:: https://img.shields.io/pypi/l/nukeuuid.svg
-    :target: https://pypi.python.org/pypi/nukeuuid
+    :target: https://pypi.org/project/nukeuuid/
 .. image:: https://img.shields.io/pypi/pyversions/nukeuuid.svg
-    :target: https://pypi.python.org/pypi/nukeuuid
+    :target: https://pypi.org/project/nukeuuid/
 .. image:: https://img.shields.io/pypi/v/nukeuuid.svg
-    :target: https://pypi.python.org/pypi/nukeuuid
+    :target: https://pypi.org/project/nukeuuid/
 .. image:: https://img.shields.io/pypi/wheel/nukeuuid.svg
-    :target: https://pypi.python.org/pypi/nukeuuid
+    :target: https://pypi.org/project/nukeuuid/
 .. image:: https://readthedocs.org/projects/nukeuuid/badge/?version=latest
     :target: https://readthedocs.org/projects/nukeuuid/?badge=latest
 
