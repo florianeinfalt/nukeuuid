@@ -133,7 +133,11 @@ def get_nodes(**kwargs):
     >>> nodes = nukeuuid.get_nodes(**kw)
     """
     nodes = []
-    for node in nuke.allNodes():
+    allNodes = nuke.allNodes()
+    for n in allNodes:
+        if n.Class() == 'Group' or n.Class() == 'Livegroup':
+            allNodes = allNodes + n.nodes()
+    for node in allNodes:
         try:
             for type_, uuid_ in kwargs.iteritems():
                 try:
